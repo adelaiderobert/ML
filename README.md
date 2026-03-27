@@ -1,8 +1,8 @@
-# Machine-Learning in Finance. MLTAMBE Group
+# Machine-Learning in Finance. 
 
 This project aims to forecast monthly U.S. stock returns using machine learning, leveraging financial characteristics observable at the time of prediction. The **target variable** is derived from the **monthly CRSP dataset**, while **predictors** come from **quarterly Compustat fundamentals** and **JKP factor characteristics**, both offering rich insights into firm behavior and asset pricing dynamics.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mltambe/
@@ -25,7 +25,7 @@ mltambe/
 ├── plots/                 # Output directory for plots
 ```
 
-## ✅ Getting Started
+## Getting Started
 
 ### 1. Install Dependencies
 
@@ -63,13 +63,13 @@ python main.py
 
 > This will train models, evaluate them, and save results and plots in the `plots/` directory.
 
-## 🧠 Models Implemented
+## Models Implemented
 
 * **OLS, Ridge, and Lasso Regression** (`linear_models.py`)
 * **Multi-Layer Perceptron (MLP)** (`mlp_model.py`)
 * **XGBoost Regressor** (`xgboost_model.py`)
 
-## 📊 Outputs
+## Outputs
 
 * Plots of predicted vs. actual returns
 * IC Distribution, Rolling IC
